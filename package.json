@@ -1,0 +1,21 @@
+{
+  "name": "rds-replication-backup",
+  "version": "0.1.0",
+  "scripts": {
+    "eslint": "eslint --max-warnings=0 '**/*.{ts,js}'",
+    "eslint-fix": "npx eslint --fix||true",
+    "prettify": "npm run eslint-fix && npx prettier -w ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.19.10",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

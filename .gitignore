@@ -1,0 +1,10 @@
+.tmp
+
+.DS_Store
+
+*.js
+!.prettierrc.js
+!.eslintrc.js
+node_modules
+
+.vscode
