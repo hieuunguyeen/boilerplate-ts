@@ -15,11 +15,6 @@
     "sourceType": "module"
   },
   "rules": {
-    "simple-import-sort/sort": [
-      1,
-      {
-        "groups": [["^\\u0000"], ["^maasglobal-prelude"], ["^[^.]"], ["^\\."]]
-      }
-    ]
+    "simple-import-sort/sort": [1]
   }
 }

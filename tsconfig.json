@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "lib": ["es2020", "dom"],
+    "lib": ["es2020"],
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -17,8 +17,12 @@
     "inlineSources": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "strictPropertyInitialization": false,
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": ".build",
+    "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["node_modules"]
+  "include": ["**/*.ts"],
+  "exclude": ["**/node_modules"]
 }
