@@ -5,7 +5,7 @@
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "simple-import"],
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
   "env": {
     "node": true,
     "es2020": true,
@@ -15,6 +15,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "simple-import-sort/sort": [1]
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }
